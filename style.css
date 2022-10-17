@@ -27,7 +27,7 @@ body{
     height: 100%;
     background-color: black;
     position: relative;
-
+    overflow: scroll;
 }
 
 .container__globos{
@@ -41,7 +41,7 @@ body{
     top: 0px;
     width: 100%;
     height:100%;
-    background: url('/claudia/globos.gif');
+    background: url('globos.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,13 +167,14 @@ a{
 .torta{
     width: 150px;
     height: 150px;
-    background: url('torta.png');
-    background-position: center center ;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin:0 auto 60px;
     position: relative;
     /*torta*/
+}
+
+.torta img{
+    width: 150px;
+    height: 150px;
 }
 
 .torta:after{
